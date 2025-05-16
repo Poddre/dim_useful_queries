@@ -1,5 +1,5 @@
-# dim_useful_queries
-Destiny Item Manager (DIM) Useful Queries
+# Destiny Item Manager (DIM) - Useful Queries
+Useful Queries for searching and cleaning your vault
 
 ## General
 ```
