@@ -8,6 +8,9 @@ Useful Queries for searching and cleaning your vault
 
 /* Old Weapons w/o Origin Trait */
 season:<lost -is:origintrait is:legendary is:weapon
+
+/* Likely Never Used Weapons (Kill counter only check the currently set option) */
+Kills:<1
 ```
 
 
