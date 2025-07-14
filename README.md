@@ -13,6 +13,11 @@ season:<lost -is:origintrait is:legendary is:weapon
 Kills:<1
 ```
 
+## Edge of Fate Prep
+```
+/* "Illegal" armor for EoF */ 
+is:armor -is:exotic ((basestat:mobility:>19 basestat:strength:>19) or (basestat:mobility:>19 basestat:intellect:>19))
+```
 
 ## Episode: Heresy (Season 26)
 ```
