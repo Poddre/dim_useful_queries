@@ -11,10 +11,12 @@ Kills:<1
 ```
 /* Barrier S27 */
 breaker:barrier or ((is:scoutrifle or is:pulserifle) -breaker:any)
-
+```
+```
 /* Overload S27 */
 breaker:overload or ((is:shotgun or is:autorifle or is:smg) -breaker:any)
-
+```
+```
 /* Unstoppable S27 */
 breaker:unstoppable or ((is:sniperrifle or is:handcannon or is:sidearm) -breaker:any)
 ```
@@ -26,7 +28,8 @@ breaker:unstoppable or ((is:sniperrifle or is:handcannon or is:sidearm) -breaker
 ```
 /* Possible Delete Weapons */
 -kills:>=0 -is:extraperk
-
+```
+```
 /* Old Weapons w/o Origin Trait */
 season:<lost -is:origintrait is:legendary is:weapon
 ```
@@ -41,13 +44,16 @@ is:armor -is:exotic ((basestat:mobility:>19 basestat:strength:>19) or (basestat:
 ```
 /* Barrier S26 */
 breaker:barrier or ((is:sidearm or is:sniperrifle) -breaker:any)
-
+```
+```
 /* Overload S26 */
 breaker:overload or ((is:machinegun or is:tracerifle) -breaker:any)
-
+```
+```
 /* Unstoppable S26 */
 breaker:unstoppable or ((is:fusionrifle or is:glaive) -breaker:any)
-
+```
+```
 /* S26 Seasonal Weapons w/o Double Origin Trait */ 
 exactperk:"willing vessel"  -exactperk:"runneth over"
 ```
